@@ -19,7 +19,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-10">
                     <div class="wrap d-md-flex">
-                        <div class="img" style="background-image: url(<?= base_url() ?>assets/images/logo.png);">
+                        <div class="img" style="background-image: url(<?= base_url() ?>assets/images/banner.jpg);">
                         </div>
                         <div class="login-wrap p-4 p-md-5">
                             <div class="d-flex">
@@ -45,7 +45,7 @@
                             </form>
                             <span>
                                 Belum punya akses?
-                                <a href="<?= base_url() ?>authentication">Registrasi di sini</a>
+                                <a href="<?= base_url() ?>registration">Registrasi di sini</a>
                             </span>
                         </div>
                     </div>

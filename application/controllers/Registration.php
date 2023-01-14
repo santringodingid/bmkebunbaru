@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Authentication extends CI_Controller
+class Registration extends CI_Controller
 {
     public function __construct()
     {
@@ -16,7 +16,7 @@ class Authentication extends CI_Controller
             'school' => $this->am->school()
         ];
 
-        $this->load->view('authentication/authentication', $data);
+        $this->load->view('registration/registration', $data);
     }
 
     public function save()
@@ -34,6 +34,6 @@ class Authentication extends CI_Controller
             'school' => $this->am->schoolbyid($id)
         ];
 
-        $this->load->view('authentication/success', $data);
+        $this->load->view('registration/success', $data);
     }
 }

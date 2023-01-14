@@ -25,7 +25,7 @@
 
     const saveConfirmation = () => {
         $.ajax({
-            url: '<?= base_url() ?>authentication/save',
+            url: '<?= base_url() ?>registration/save',
             method: 'POST',
             data: $('#form-confirmation').serialize(),
             dataType: 'JSON',
@@ -38,7 +38,7 @@
                     errorAlert(res.message)
                     return false
                 }
-                window.location.href = '<?= base_url() ?>authentication/success/' + res.message
+                window.location.href = '<?= base_url() ?>registration/success/' + res.message
             },
             complete: function() {
                 $('.wrap-loading__').hide()
