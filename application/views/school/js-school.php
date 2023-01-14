@@ -26,13 +26,13 @@
         $('#show-product').html('')
 
         let name = $('#changeName').val()
-        let category = $('#changeCategory').val()
+        let status = $('#changeCategory').val()
         $.ajax({
             url: `${url}school/loaddata`,
             method: 'POST',
             data: {
                 name,
-                category
+                status
             },
             success: function(response) {
                 $('#show-product').html(response)
