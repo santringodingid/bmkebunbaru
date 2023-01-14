@@ -17,7 +17,7 @@ class Auth extends CI_Controller
             redirect(base_url());
         } else {
             $data = [
-                'title' => 'Login | Star Jaya'
+                'title' => 'Login | BM Kebunbaru'
             ];
             $this->load->view('auth/login', $data);
         }

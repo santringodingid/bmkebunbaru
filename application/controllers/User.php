@@ -14,7 +14,7 @@ class User extends CI_Controller
     public function index()
     {
         $data = [
-            'title' => 'Data User | e-bms'
+            'title' => 'Data User'
         ];
         $this->load->view('user/user', $data);
     }
