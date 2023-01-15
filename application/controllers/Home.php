@@ -15,7 +15,8 @@ class Home extends CI_Controller
     {
         $data = [
             'title' => 'BM Kebunbaru',
-            'class' => 'active'
+            'class' => 'active',
+            'reg' => $this->hm->getRegistrations()
         ];
         $this->load->view('home/home', $data);
     }
