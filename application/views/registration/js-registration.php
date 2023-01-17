@@ -1,4 +1,3 @@
-</body>
 <script>
     $('[data-mask]').inputmask();
 
@@ -46,5 +45,6 @@
         })
     }
 </script>
+</body>
 
 </html>

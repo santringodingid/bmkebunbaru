@@ -86,4 +86,4 @@
     </div>
 </div>
 <?php $this->load->view('partials/footer'); ?>
-<?php $this->load->view('authentication/js-authentication'); ?>
+<?php $this->load->view('participant/js-participant'); ?>

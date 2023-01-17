@@ -57,9 +57,9 @@ if ($school['status'] == 200) {
                             </p>
                         </div>
                         <div class="col-md-6 col-xl-2">
-                            <button class="btn btn-sm btn-default btn-block" onclick="copyToClipboard('<?= base_url() ?>authentication/autolog/<?= $data['username'] ?>')">
-                                <i class="fas fa-copy"></i>
-                                Salin URL
+                            <button class="btn btn-sm btn-default btn-block">
+                                <i class="fas fa-file"></i>
+                                <?= $data['type'] ?>
                             </button>
                         </div>
                     </div>

@@ -64,7 +64,7 @@
                     </div>
                 </div>
             <?php } ?>
-            <hr class="mt-0">
+            <hr class="mt-2">
             <div class="row mt-4">
                 <div class="col-12">
                     <h6 class="text-center">Rundown Acara</h6>
@@ -85,10 +85,6 @@
                                 <tr>
                                     <td>12:00 - 15:30</td>
                                     <td>Check In Peserta</td>
-                                </tr>
-                                <tr>
-                                    <td>15:30 - 17:00</td>
-                                    <td>Pembukaan</td>
                                 </tr>
                                 <tr>
                                     <td>15:30 - 17:00</td>

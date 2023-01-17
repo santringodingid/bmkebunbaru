@@ -38,6 +38,7 @@ class SchoolModel extends CI_Model
                     'status' => $status,
                     'text' => $textStatus[$status],
                     'date' => $d->confirmed_at,
+                    'type' => $d->type,
                     'participant' => [
                         'status' => $this->getParticipant($d->id)[0],
                         'data' => $this->getParticipant($d->id)[1]

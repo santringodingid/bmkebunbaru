@@ -57,10 +57,5 @@ class Auth extends CI_Controller
         redirect(base_url());
     }
 
-    public function setpass()
-    {
-        $this->db->update('users', [
-            'password' => password_hash(12345, PASSWORD_DEFAULT)
-        ]);
-    }
+    
 }
