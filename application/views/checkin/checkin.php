@@ -38,7 +38,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <input type="text" onkeyup="search()" id="changeName" class="form-control form-control-sm" placeholder="Cari nama">
+                    <input autocomplete="off" type="text" onkeyup="search()" id="changeName" class="form-control form-control-sm" placeholder="Cari nama">
                 </div>
                 <div class="modal-body" id="show-search" style="min-height: 45vh; max-height: 85vh; overflow: auto"></div>
             </div>
