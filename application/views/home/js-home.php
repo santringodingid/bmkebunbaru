@@ -31,7 +31,7 @@
             // Jika hitungan mundur selesai, tulis beberapa teks 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "MUAMMAR SUKSES DILAKSANAKAN";
+                document.getElementById("demo").innerHTML = "ACARA SUDAH DIMULAI";
             }
         }, 1000);
     }
