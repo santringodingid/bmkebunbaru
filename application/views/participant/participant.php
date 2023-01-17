@@ -61,7 +61,7 @@
                                 } else {
                                 ?>
                                     <h6 class="text-success text-center">
-                                        Anda berhasil check in pada <?= datetimeIDFormat($registration->created_at) ?>
+                                        Anda berhasil check in pada : <br> <?= datetimeIDFormat($registration->created_at) ?>
                                     </h6>
                             <?php
                                 }
