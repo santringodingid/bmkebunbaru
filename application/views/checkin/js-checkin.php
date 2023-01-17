@@ -56,6 +56,7 @@
                 let status = res.status
                 if (status != 200) {
                     errorAlert(res.message)
+                    $('#id').focus().val('')
                     return false
                 }
                 $('#id').focus().val('')

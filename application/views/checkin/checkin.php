@@ -10,7 +10,7 @@
                             <h6>Checkin Peserta</h6>
                         </div>
                         <div class="card-body">
-                            <input id="id" data-inputmask="'mask' : '999999'" data-mask="" type="text" autofocus class="form-control">
+                            <input autocomplete="off" id="id" data-inputmask="'mask' : '999999'" data-mask="" type="text" autofocus class="form-control">
                             <small class="text-success">Masukkan ID lalu tekan ENTER</small>
                         </div>
                         <div class="card-footer">
